@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikimedia</title>
+</head>
+<body>
+<a href={% url 'index' %}>Home</a>
+<h1>Bug Details</h1>
+<div style="display: flex;"><p>Description: </p><p style="color:blue;margin-left: 10px;"> {{ bug.bug_description }}</p></div>
+<div style="display: flex;"><p>Type of Bug: </p><p style="color:blue;margin-left: 10px;"> {{ bug.bug_type }}</p></div>
+<div style="display: flex;"><p>Date reported: </p><p style="color:blue;margin-left: 10px;"> {{ bug.bug_report_date }}</p></div>
+<div style="display: flex;"><p>Status: </p><p style="color:blue;margin-left: 10px;"> {{ bug.bug_status }}</p></div>
+
+</body>
+</html>

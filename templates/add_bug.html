@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>wikimedia</title>
+</head>
+<body>
+<a href={% url 'index' %}>Home</a>
+<h1>Add a new Bug</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Create Bug</button>
+{#    <input type="submit" value="Add"/>#}
+</form>
+
+
+</body>
+</html>
