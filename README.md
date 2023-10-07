@@ -20,15 +20,15 @@ Details View Of Bugs: Users have the ability to access in-depth details about ea
 ## Installation
 To get started with the Wikimedia project, follow these steps:
 
- cd wikimedia  return
- python3 -m venv env
- source env/bin/activate
- pip install django
- pip install -r requirements.txt
- python manage.py makemigrations
- python manage.py migrate
- python manage.py createsuperuser
- python manage.py runserver
+ cd wikimedia<br>
+ python3 -m venv env<br>
+ source env/bin/activate<br>
+ pip install django<br>
+ pip install -r requirements.txt<br>
+ python manage.py makemigrations<br>
+ python manage.py migrate<br>
+ python manage.py createsuperuser<br>
+ python manage.py runserver<br>
 
 
 ## Usage
