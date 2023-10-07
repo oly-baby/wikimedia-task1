@@ -20,7 +20,7 @@ Details View Of Bugs: Users have the ability to access in-depth details about ea
 ## Installation
 To get started with the Wikimedia project, follow these steps:
 
- cd wikimedia
+ cd wikimedia  return
  python3 -m venv env
  source env/bin/activate
  pip install django
